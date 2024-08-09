@@ -1,0 +1,123 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    background: -webkit-Linear-gradient(25deg, #FFBE0B, #976f5d, #e2b6c9, #7651aa, #466ca8);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outLine: none;
+}
+#content container {
+    width: 30%;
+    height: 70%;
+}
+#form_container {
+    width: 100%;
+    height: 100%;
+
+    background-color: #ec8bad;
+    box-shadow: 0 0 50px -20px #000;
+    border-radius: 2%;
+
+    overflow: hidden;
+}
+#form_header_container {
+    width: 100%;
+    height: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: Left;
+
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    border-bottom: 1px solid transparent;
+    border-image: -webkit-Linear-gradient(25deg, #FFBE0B, #976f5d, #e2b6c9, #7651aa, #466ca8) 20;
+    background: #c7c3c3;
+}
+#form_header {
+    display: inline-block;
+    font-size: 15px;
+    font-family: Bowlby One SC;
+    font-weight: 900;
+    text-transform: uppercase;
+    Letter-spacing: 1px;
+
+    background: -webkit-Linear-gradient (25deg, #FFBE0B, #976f5d, #e2b6c9, #7651aa, #466ca8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#form_content_container{
+    width: 100%;
+    height: 90%;
+
+    float: Left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 30px;
+}
+#form_content_inner_container {
+    width: 75%;
+    height: 100%;
+
+    float: Left;
+}
+input {
+    width: 100%;
+    height: 40px;
+    padding-Left: 10px;
+    margin-bottom: 20px;
+    background: #000;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #fff;
+    font-size: 12px;
+
+    border-bottom: 2px solid transparent;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-image: -webkit-Linear-gradient(25deg, #FFBE0B, #976f5d, #e2b6c9, #7651aa, #466ca8) 1;
+}
+#button_container {
+    width: 100%;
+    height: 10%;
+
+    background-image: Linear-gradient(80deg, #FFBE0B, #976f5d, #e2b6c9, #7651aa, #466ca8);
+    color: #fff;
+
+    float: Left;
+    margin-top: 5px;
+}
+#button_container button {
+    width: 50%;
+    height: 100%;
+    float: Left;
+
+    background: transparent;
+    color: inherit;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    Letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 12px;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
